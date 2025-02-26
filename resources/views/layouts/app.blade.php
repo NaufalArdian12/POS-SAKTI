@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'My Laravel App')</title>
+    <title>@yield('title', 'POS SAKTI')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
@@ -25,7 +25,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
             <div class="container">
-                <a class="navbar-brand" href="{{ route('home') }}">My Laravel App</a>
+                <a class="navbar-brand" href="{{ route('home') }}">POS SAKTI</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,7 +65,7 @@
 
     <footer class="footer mt-auto py-3 bg-dark text-white text-center">
         <div class="container">
-            <p class="mb-0">© {{ date('Y') }} My Laravel App. All rights reserved.</p>
+            <p class="mb-0">© {{ date('Y') }} POS SAKTI. All rights reserved.</p>
         </div>
     </footer>
 
